@@ -1,0 +1,241 @@
+/* Default css here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 2% 5%;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #3f3d3d;
+}
+
+h2 {
+    font-size: 26px;
+}
+p {
+    font-size: 18px;
+    padding: 0 20%;
+    color: #524e4e;
+    margin-bottom: 25px;
+}
+
+.btn {
+    border: 2px solid transparent;
+    color: #e2dbdb;
+    background-color: tomato;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Default css ends here */
+
+/* Header css */
+
+#header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/donation2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+#header h1 {
+    color: #dcd1d1;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#header p {
+    color: #dcd1d1;
+}
+
+/* Header css ends */
+
+/* Donation section here */
+
+
+#donation .amount-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 15%;
+}
+
+#donation .amount-box .amount {
+    padding: 13px;
+    background-color: #fcf1e4;
+    color: #4d4a46;
+}
+
+#donation .amount-box .active {
+    background-color: tomato ;
+    border: 2px solid red;
+    color: #dcd1d1 ;
+}
+
+#donation form input {
+    text-align: center;
+    width: 60%;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 2px solid transparent;
+    border-bottom: 1px solid #dfd9d9;
+    outline: none;
+    margin: 20px 0;
+}
+
+
+/* donate planning section here */
+
+#donation-planing .planning-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#donation-planing .planning-item {
+    margin: 5px;
+    padding: 35px 15px;
+    text-align: left;
+}
+
+#donation-planing .planning-item h3 {
+    color: #2f2929;
+    margin: 20px 0;
+}
+#donation-planing .planning-item p {
+    padding: 0;
+}
+
+#donation-planing .food {
+    background-color: #b1c7ef;
+}
+
+#donation-planing .shelter {
+    background-color: #c288df;
+}
+
+#donation-planing .education {
+    background-color: #c6f26f;
+}
+
+/* blog section */
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-container .content {
+    width: 50%;
+}
+
+.blog-container .text {
+    margin-top: 40px;
+}
+.blog-container .content p{
+    text-align: left;
+    padding: 0;
+}
+
+.blog-container .content img {
+    width: 100%;
+}
+
+.blog2 .blog-container .content {
+    padding-left: 30px;
+}
+
+
+/* Group section */
+
+.group-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 30%;
+    height: 300px;
+    flex-grow: 1;
+    margin: 1.5%;
+}
+
+.member img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Update section start */
+
+
+.subscription {
+    margin: 45px 94px 0;
+    padding: 50px 260px;
+    background-color: #caec73;
+    text-align: center;
+}
+
+
+.update-container form input {
+    padding: 10px;
+    width: 292px;
+    background-color: #bcaaaa;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+#update button{
+    margin-left: -120px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #dc2a0a;
+}
+
+footer {
+    background-color: #060606e9;
+}
+
+footer h3 {
+    font-size: 30px;
+    color: rgb(249, 12, 60);
+    margin-bottom: 20px;
+}
+
+footer h5 {
+    color: #b1c7ef;
+    font-size: 16px;
+}
